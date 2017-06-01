@@ -18,10 +18,10 @@ public class ConnectionMongo {
 			//conexi�n a mongodb formato URI
 			//mongodb://user1@host1/?authSource=$external&authMechanism=PLAIN
 			String db = "test";
-			String host = "cre.unileon.es";
-			int port = 3306;//default
-			String user = "admin";
-			String password = "root";
+			String host = "";
+			int port = ;//default
+			String user = "";
+			String password = "";
 
 			//autenticacion externa
 			uri = new MongoClientURI("mongodb://"+user+":"+password+"@"+host+":"+port+"/?authSource=$external&authMechanism=PLAIN");
